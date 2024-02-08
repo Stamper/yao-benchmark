@@ -50,4 +50,5 @@ Blacksheep 2.0.6
 Express 4.18.2
 Koa 2.15.0
 Fastify 4.26.0
+Elysia 1.0.50
 ```

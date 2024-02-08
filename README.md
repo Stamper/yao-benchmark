@@ -52,3 +52,21 @@ Koa 2.15.0
 Fastify 4.26.0
 Elysia 1.0.50
 ```
+### Testing environment
+- Dell Latitude 5440
+- Intel Core i7-1365U / 32GB / SSD
+- Python 3.10.12
+- Locust 2.22.0 (Master + 3 Workers)
+
+### Testing scenario
+```
+Request: POST /api/
+{
+  "payload": "<GUID4>"
+}
+
+Response: 200 OK
+{
+  "result": "<SHA3_512(payload)>"
+}
+```

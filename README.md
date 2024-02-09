@@ -61,3 +61,21 @@ Elysia 1.0.50
 ```
 Lightbug 0.1.1-alpha
 ```
+### Testing environment
+- Dell Latitude 5440
+- Intel Core i7-1365U / 32GB / SSD
+- Python 3.10.12
+- Locust 2.22.0 (Master + 3 Workers)
+
+### Testing scenario
+```
+Request: POST /api/
+{
+  "payload": "<GUID4>"
+}
+
+Response: 200 OK
+{
+  "result": "<SHA3_512(payload)>"
+}
+```

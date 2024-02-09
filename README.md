@@ -6,11 +6,14 @@ TP-Link TL-WR940N
 
 ### Server
 #### Hardware
-- Dell Inspirion 3511
-- Intel Core i3-1115G4 / 32GB / SSD
+```
+Dell Inspirion 3511 / Core i3-1115G4 / 32GB / SSD
+```
 #### Tools
-- pyenv 2.3.35
-- nvm 0.39.7
+```
+pyenv 2.3.35
+nvm 0.39.7
+```
 #### Runtimes
 ```
 Python:
@@ -18,6 +21,7 @@ Python:
 - 3.10.13
 - 3.12.1
 Pypy 3.10-7.3.15
+Mojo 0.7.0
 NodeJS:
 - 16.20.2
 - 18.19.0
@@ -50,5 +54,10 @@ Blacksheep 2.0.6
 Express 4.18.2
 Koa 2.15.0
 Fastify 4.26.0
+Deno 1.40.30
 Elysia 1.0.50
+```
+### Mojo framework
+```
+Lightbug 0.1.1-alpha
 ```

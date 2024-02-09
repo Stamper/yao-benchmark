@@ -22,10 +22,8 @@ Yet another one benchmark (that nobody asked for)
 [^4]: CPU and Memory consumption measured by `htop` tool during the test
 
 ### Server
-#### Hardware
-```
-Dell Inspirion 3511 / Core i3-1115G4 / 32GB / SSD
-```
+- Dell Inspirion 3511 / Core i3-1115G4 / 32GB / SSD
+- xUbuntu 22.04.3 LTS
 #### Tools
 ```
 pyenv 2.3.35
@@ -81,6 +79,7 @@ Lightbug 0.1.1-alpha
 ### Testing environment
 ```
 Dell Latitude 5440 / Core i7-1365U / 32GB / SSD
+Ubuntu 22.04.3 LTS
 Python 3.10.12
 Locust 2.22.0 (Master + 3 Workers, 10k users)
 ```

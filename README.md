@@ -4,9 +4,9 @@ Yet another one benchmark (that nobody asked for)
 <details>
 <summary>Results table</summary>
 
-| Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU[^4] | Mem[^4] |
-|-------------|---------|----------|-------|---------|-------|---------|---------|
-| Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30%     | 10%     |
+| Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU%[^4] | Mem%[^4] |
+|-------------|---------|----------|-------|---------|-------|----------|----------|
+| Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30        | 10      |
 </details>
 
 [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing)

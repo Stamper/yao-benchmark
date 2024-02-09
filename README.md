@@ -1,11 +1,17 @@
 # yao-benchmark
 Yet another one benchmark (that nobody asked for)
 ### Long story short
+<details>
+<summary>Results table</summary>
+
 | Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU[^4] | Mem[^4] |
 |-------------|---------|----------|-------|---------|-------|---------|---------|
 | Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30%     | 10%     |
+</details>
 
-`* All the boring details can be found below.`
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing)
+
+*All the boring details can be found below.*
 
 [^1]: Number of workers
 
@@ -15,10 +21,6 @@ Yet another one benchmark (that nobody asked for)
 
 [^4]: CPU and Memory consumption measured by `htop` tool during the test
 
-### Network
-```
-TP-Link TL-WR940N
-```
 ### Server
 #### Hardware
 ```
@@ -80,7 +82,11 @@ Lightbug 0.1.1-alpha
 ```
 Dell Latitude 5440 / Core i7-1365U / 32GB / SSD
 Python 3.10.12
-Locust 2.22.0 (Master + 3 Workers)
+Locust 2.22.0 (Master + 3 Workers, 10k users)
+```
+### Network
+```
+TP-Link TL-WR940N
 ```
 ### Testing scenario
 ```
@@ -94,3 +100,5 @@ Response: 200 OK
   "result": "<SHA3_512(payload)>"
 }
 ```
+### Conclusion
+I really appreciate you've got this long. No conclusions, the numbers talks by itselves.

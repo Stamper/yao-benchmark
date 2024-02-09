@@ -22,7 +22,7 @@ Yet another one benchmark (that nobody asked for)
 [^4]: CPU and Memory consumption measured by `htop` tool during the test
 
 ### Server
-- Dell Inspirion 3511 / Core i3-1115G4 / 32GB / SSD
+- Dell Inspiron 3511 / Core i3-1115G4 / 32GB / SSD
 - xUbuntu 22.04.3 LTS
 #### Tools
 ```

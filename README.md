@@ -100,4 +100,4 @@ Response: 200 OK
 }
 ```
 ### Conclusion
-I really appreciate you've got this long. No conclusions, the numbers talks by itselves.
+I really appreciate you've got this long. No conclusions, the numbers speaks for itself.

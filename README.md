@@ -7,11 +7,11 @@ Yet another one benchmark (that nobody asked for)
 
 `* All the boring details can be found below.`
 
-[^1]: number of workers
+[^1]: Number of workers
 
 [^2]: Requests per minute measured by Locust
 
-[^3]: number of lines excluding initial bootstrap like `startproject` in Django
+[^3]: Number of lines of code excluding initial bootstrap (like `startproject` in Django)
 
 [^4]: CPU and Memory consumption measured by `htop` tool during the test
 

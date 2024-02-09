@@ -1,9 +1,21 @@
 # yao-benchmark
 Yet another one benchmark (that nobody asked for)
+### Long story short
+| Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU[^4] | Mem[^4] |
+|-------------|---------|----------|-------|---------|-------|---------|---------|
+| Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30%     | 10%     |
+[^1]: number of workers
+
+[^2]: Requests per minute measured by Locust
+
+[^3]: number of lines excluding initial bootstrap like `startproject` in Django
+
+[^4]: CPU and Memory consumption measured by `htop` tool during the test
 
 ### Network
+```
 TP-Link TL-WR940N
-
+```
 ### Server
 #### Hardware
 ```

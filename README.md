@@ -72,7 +72,7 @@ Fastify 4.26.0
 Deno 1.40.30
 Elysia 1.0.50
 ```
-### Mojo framework
+#### Mojo framework
 ```
 Lightbug 0.1.1-alpha
 ```

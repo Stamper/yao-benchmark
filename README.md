@@ -4,6 +4,7 @@ Yet another one benchmark (that nobody asked for)
 | Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU[^4] | Mem[^4] |
 |-------------|---------|----------|-------|---------|-------|---------|---------|
 | Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30%     | 10%     |
+
 `* All the boring details can be found below.`
 
 [^1]: number of workers

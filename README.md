@@ -9,7 +9,7 @@ Yet another one benchmark (that nobody asked for)
 | Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30%     | 10%     |
 </details>
 
-![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing)
+[Google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing)
 
 *All the boring details can be found below.*
 

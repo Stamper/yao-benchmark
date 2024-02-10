@@ -5,22 +5,20 @@ Yet another one benchmark (that nobody asked for)
 <summary>Results table</summary>
 Best result for each framework powered by 1 worker.
 
-| Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU%[^4] | Mem%[^4] |
-|-------------|---------|----------|-------|---------|-------|----------|----------|
-| Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30        | 10      |
+| Framework   | Runtime | Server   | RPM[^1] | L[^2] | CPU%[^3] | Mem%[^3] |
+|-------------|---------|----------|---------|-------|----------|----------|
+| Flask-RESTX | py38    | Gunicorn | xxx     | xx    | 30       | 10       |
 </details>
 
 The full data set is presented in this [google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing).
 
 *All the boring details can be found below.*
 
-[^1]: Number of workers
+[^1]: Requests per minute measured by Locust
 
-[^2]: Requests per minute measured by Locust
+[^2]: Number of lines of code excluding initial bootstrap (like `startproject` in Django)
 
-[^3]: Number of lines of code excluding initial bootstrap (like `startproject` in Django)
-
-[^4]: CPU and Memory consumption measured by `htop` tool during the test
+[^3]: CPU and Memory consumption measured by `htop` tool during the test
 
 ### Server
 - Dell Inspiron 3511 / Core i3-1115G4 / 32GB / SSD

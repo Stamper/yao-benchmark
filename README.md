@@ -3,13 +3,14 @@ Yet another one benchmark (that nobody asked for)
 ### Long story short
 <details>
 <summary>Results table</summary>
+Best result for each framework powered by 1 worker.
 
 | Framework   | Runtime | Server   | W[^1] | RPM[^2] | L[^3] | CPU%[^4] | Mem%[^4] |
 |-------------|---------|----------|-------|---------|-------|----------|----------|
 | Flask-RESTX | py38    | Gunicorn | 1     | xxx     | xx    | 30        | 10      |
 </details>
 
-[Google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing)
+The full data set is presented in this [google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing).
 
 *All the boring details can be found below.*
 
@@ -64,7 +65,7 @@ Django Ninja 1.1.0
 FastAPI 0.109.2
 Blacksheep 2.0.6
 ```
-#### NodeJS frameworks
+#### JS/TS frameworks
 ```
 Express 4.18.2
 Koa 2.15.0

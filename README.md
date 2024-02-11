@@ -7,7 +7,7 @@ Best result for each framework powered by 1 worker.
 
 | Framework   | Runtime | Server   | RPM[^1] | L[^2] | CPU%[^3] | Mem%[^3] |
 |-------------|---------|----------|---------|-------|----------|----------|
-| Flask-RESTX | py38    | Gunicorn | xxx     | xx    | 30       | 10       |
+| Flask-RESTX | py310   | Gunicorn | xxx     | xx    | 30       | 10       |
 </details>
 
 The full data set is presented in this [google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing).
@@ -31,13 +31,11 @@ nvm 0.39.7
 #### Runtimes
 ```
 Python:
-- 3.8.18
 - 3.10.13
 - 3.12.1
 Pypy 3.10-7.3.15
 Mojo 0.7.0
 NodeJS:
-- 16.20.2
 - 18.19.0
 - 20.11.0
 Deno 1.40.3

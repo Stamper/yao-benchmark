@@ -80,7 +80,7 @@ Lightbug 0.1.1-alpha
 Dell Latitude 5440 / Core i7-1365U / 32GB / SSD
 Ubuntu 22.04.3 LTS
 Python 3.10.12
-Locust 2.22.0 (Master + 3 Workers, 10k users)
+Locust 2.22.0 (10 Workers, 100 users)
 ```
 ### Network
 ```

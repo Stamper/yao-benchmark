@@ -6,4 +6,4 @@ from locust import HttpUser, task
 class MyUser(HttpUser):
     @task
     def my_task(self):
-        self.client.post("/api", data={"payload": str(uuid4())})
+        self.client.post("/api/", data={"payload": uuid4().hex})

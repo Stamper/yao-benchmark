@@ -5,9 +5,9 @@ Yet another one benchmark (that nobody asked for)
 <summary>Results table</summary>
 Best result for each framework powered by 1 worker.
 
-| Framework   | Runtime | Server   | RPM[^1] | L[^2] | CPU%[^3] | Mem%[^3] |
-|-------------|---------|----------|---------|-------|----------|----------|
-| Flask-RESTX | py310   | Gunicorn | xxx     | xx    | 30       | 10       |
+| Framework   | Runtime | Server   | RPM [^1] | L [^2] | CPU% [^3] | Mem% [^3] |
+|-------------|---------|----------|----------|--------|-----------|-----------|
+| Flask-RESTX | py310   | Gunicorn | xxx      | xx     | 30        | 10        |
 </details>
 
 The full data set is presented in this [google spreadsheet](https://docs.google.com/spreadsheets/d/1Cojv3-i-Jp5OBe26qyfy-kO59fkgCiZMujKfK0i-G1U/edit?usp=sharing).
@@ -95,6 +95,11 @@ Response: 200 OK
 {
   "result": "<SHA3_512(payload)>"
 }
+```
+### Locust configuration
+```
+$ cd locust && locust --master
+$ cd locust && locust --worker  # 10 times
 ```
 ### Conclusion
 I really appreciate you've got this long. No conclusions, the numbers speaks for itself.

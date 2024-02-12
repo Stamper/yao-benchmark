@@ -88,7 +88,7 @@ TP-Link TL-WR940N
 ```
 Request: POST /api/
 {
-  "payload": "<GUID4>"
+  "payload": "<UUID4>"
 }
 
 Response: 200 OK
